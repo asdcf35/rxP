@@ -7,5 +7,4 @@ RUN autoreconf -i
 RUN ./configure && make
 RUN ./shellinaboxd
 RUN wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.tgz
-RUN tar -xf ngrok-stable-linux-amd64.tgz
 
