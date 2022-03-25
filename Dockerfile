@@ -6,5 +6,4 @@ RUN git clone https://github.com/shellinabox/shellinabox.git && cd shellinabox
 RUN autoreconf -i
 RUN ./configure && make
 RUN ./shellinaboxd
-RUN wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.tgz
 
